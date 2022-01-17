@@ -1,0 +1,50 @@
+body {
+  color: antiquewhite;
+  margin: 0;
+  background-color: #1d3441; }
+
+main {
+  position: relative;
+  top: 70px;
+  overflow: hidden;
+  min-height: calc(100vh - 70px); }
+
+input {
+  border-radius: 10px;
+  border: 2px solid #000000; }
+  input:hover {
+    border: 2px solid #0d2b3a; }
+  input:focus {
+    border: 2px solid #014569; }
+
+button {
+  border-radius: 10px;
+  background-color: #2e0a3f;
+  border: 2px solid #000000; }
+  button:hover {
+    background-color: #380736; }
+  button:focus {
+    background-color: #3f0457; }
+
+.table {
+  width: 100%;
+  border-spacing: 0 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; }
+  .table table {
+    width: 100%;
+    box-sizing: border-box; }
+    .table table tr th {
+      padding: 10px 20px;
+      background: #48758E;
+      color: #fff;
+      font-size: 0.9em; }
+    .table table tr td {
+      vertical-align: middle;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center;
+      border-bottom: 2px solid #56433D;
+      border-right: 2px solid #56433D; }
+
+/*# sourceMappingURL=uiElements.css.map */

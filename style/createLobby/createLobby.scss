@@ -1,0 +1,37 @@
+.container-create__rows {
+  &__left {
+    margin-right: 7%;
+  }
+
+  &__right {
+    margin-left: 7%;
+  }
+}
+
+.cartphoto {
+  width: 90%;
+  height: 90%;
+}
+
+.container-create {
+  background-color: #382534;
+  margin: 15%;
+  @media (max-width: 800px) {
+    margin: 4%;
+  }
+  @media (max-width: 440px) {
+    margin: 0%;
+    margin-top: 5%;
+  }
+  // .container__left-row
+
+  display: flex;
+  align-items: center;
+  &__rows {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    align-items: flex-start;
+    display: inline-flex;
+  }
+}

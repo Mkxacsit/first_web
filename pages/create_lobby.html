@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quake-deathmatch</title>
+    <link rel="stylesheet" href="/style/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__flexbox">
+        <a class="header__logo--left" href="/index.html">
+          <img
+            class="header__image"
+            src="/img/header/logo.png"
+            width="62px"
+            height="62px"
+            alt="logo"
+          />
+          <h2 class="header__label">Quake</h2>
+        </a>
+        <nav class="header__navigation">
+          <a href="/pages/create_lobby.html" class="header__anchor"
+            >Создать</a
+          >
+          <a href="/pages/lobby_list.html" class="header__anchor"
+            >Лобби</a
+          >
+          <a href="/pages/player_list.html" class="header__anchor">Игроки</a>
+          <a href="/pages/map_list.html" class="header__anchor">Карты</a>
+          <a href="/pages/profile.html" class="header__anchor">Профиль</a>
+        </nav>
+        <div class="header__authorization-active">
+          <button
+            class="header__button"
+            onclick="gotoPage1('/pages/authorization.html')"
+          >
+            Войти
+          </button>
+        </div>
+        <div class="header__authorization-disable">
+          <p
+            id="p1"
+            class="header__paragraph"
+            
+          >
+            Имя пользователя
+          </p>
+          <button class="header__button" onclick="logOut()">Выйти</button>
+        </div>
+      </div>
+    </header>
+    <header class="header-small">
+      <div class="header__flexbox">
+        <div class="header__logo--left">
+          <img
+            class="header__image"
+            src="/img/header/logo.png"
+            width="62px"
+            height="62px"
+            alt="logo"
+          />
+          <h2 class="header__label">Quake</h2>
+        </div>
+        <div class="header__navigationSelect">
+          <img
+            class="header__selectButton"
+            src="/img/icons/navbar.png"
+            onclick="hideSelect()"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__navbar--hidden">
+        <a href="/pages/create_lobby.html" class="main__anchor"
+          >Создать</a
+        >
+        <hr />
+        <a href="/pages/lobby_list.html" class="main__anchor">Лобби</a>
+        <hr />
+        <a href="/pages/player_list.html" class="main__anchor">Игроки</a>
+        <hr />
+        <a href="/pages/map_list.html" class="main__anchor">Карты</a>
+        <hr />
+        <a href="/pages/profile.html" class="main__anchor">Профиль</a>
+        <hr />
+      </div>
+      
+<div class="container-create">
+<div class="container-create__rows">
+<div class="container-create__rows__left">
+<p class="lobby-name">
+  Название лобби
+</p>
+<input class="input create__input---lobbyname" name="lobby" type="text" placeholder="Назови свою комнату" />
+<p class="lobbycart">
+  Выбери карту
+</p>
+<img class= "cartphoto"src="/img/photos/dust2.jpg" alt="cart">
+</div>
+<div class="container-create__rows__right">
+<p class="minplayers">
+  Минимальное количество игроков:
+</p>
+<input class="input create__input---minplayers" name="minplayers" type="text" placeholder="Скольких ты согласен убить?" />
+
+<p class="time">
+  Время начала:
+</p>
+<input class="input create__input---time" name="time" type="text" placeholder="Когда начнется мясо?" />
+
+<p class="description">
+  Описание:
+</p>
+<input class="input create__input---description" name="description" type="text" placeholder="напиши что-то" />
+</div>
+</div>
+</div>
+
+      
+      
+    </main>
+    <footer class="footer">
+      <div class="footer__contacts">
+        <br>
+
+        <a href="https://vk.com/"><img src="/img/icons/vk.png" alt="vk" /></a>
+        <a href="https://www.instagram.com/"
+          ><img src="/img/icons/instagram.png" alt="instagram"
+        /></a>
+        <a href="tel:+375292467746"
+          ><img src="/img/icons/mobile.png" alt="mobile"
+        /></a>
+        <a href="mailto:ctrykov2002@mail.com"
+          ><img src="/img/icons/email.png" alt="email"
+        /></a>
+      </div>
+      <h3 class="footer__copurate">© Quake-deathmatch 2021</h3>
+    </footer>
+    <script src="/scrips/script.js"></script>
+    <script src="/scrips/slider.js"></script>
+    <script src="/scrips/autorizate.js"></script>
+    <script src="/scrips/pagesChange.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+@import "./authrorization/authorization.scss";
+@import "./registration/registraton.scss";
+.modal-window{
+    position: absolute;
+    z-index: 20;
+    margin-left: calc(50% - 175px);
+    top:calc(50% - 200px);
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #3c075f;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}

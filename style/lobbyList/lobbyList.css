@@ -1,0 +1,106 @@
+.lobbycontainer {
+  margin: 7%;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  @media (max-width: 800px) {
+    .lobbycontainer {
+      margin: 4%; } }
+  @media (max-width: 440px) {
+    .lobbycontainer {
+      margin: 0%;
+      margin-top: 5%; } }
+
+.findnavbar p {
+  white-space: nowrap;
+  margin-right: 7%; }
+  @media (max-width: 440px) {
+    .findnavbar p {
+      margin: 1%; } }
+
+.findnavbar {
+  display: inline-flex;
+  white-space: nowrap;
+  margin-right: 7%; }
+  @media (max-width: 440px) {
+    .findnavbar {
+      margin: 1%; } }
+
+.hiddennav {
+  margin-right: -7%; }
+  @media (max-width: 440px) {
+    .hiddennav {
+      display: none; } }
+
+.sortby {
+  padding-right: 5%;
+  padding-left: 5%; }
+
+.sortparams {
+  padding-right: 5%;
+  padding-left: 5%;
+  display: inline-flex; }
+
+.find {
+  display: flex;
+  align-items: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  display: inline-flex; }
+
+.findlobby {
+  max-height: 23%;
+  max-width: 50%; }
+  @media (max-width: 440px) {
+    .findlobby {
+      max-height: 23%;
+      max-width: 23%; } }
+
+.inf {
+  width: 100%; }
+
+.lobbynavigate p {
+  padding-right: 2%;
+  padding-left: 2%;
+  display: inline-flex; }
+
+.lobbynavigate {
+  width: 100%;
+  margin: 20px 0;
+  text-align: justify;
+  white-space: nowrap;
+  background-color: #382534;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+  display: inline-flex;
+  margin-bottom: 0.5%; }
+
+.lobbyinfo p {
+  padding-right: 2%;
+  padding-left: 2%;
+  display: inline-flex; }
+
+.lobbyinfo {
+  width: 100%;
+  margin: 20px 0;
+  text-align: justify;
+  white-space: nowrap;
+  background-color: #382534;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+  display: inline-flex;
+  margin-bottom: 0.5%; }
+
+.avatar {
+  padding: 2%;
+  width: 12%;
+  height: 12%; }
+  @media (max-width: 440px) {
+    .avatar {
+      display: none; } }
+
+/*# sourceMappingURL=lobbyList.css.map */

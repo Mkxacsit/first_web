@@ -1,0 +1,76 @@
+$divBackgroundColor: #392446;
+$divHeaderColor: #272e31;
+$navBarHover: #323a3d;
+
+$h1FontFamily:'Marko One', serif;
+$textFontFamily:'Roboto', sans-serif;
+$fontColorLight: rgb(214, 0, 0);
+$fontColorDark: rgb(255, 238, 238);
+
+$buttonColor:#2e0a3f;
+$buttonHover: #380736;
+$buttonClick:#3f0457;
+
+$inputBorder:#000000;
+$inputHoverBorder:#0d2b3a;
+$inputClickBorder: #014569;;
+$inputErrorButtonColor: #4b2121; 
+
+body{
+    color:antiquewhite;
+    margin: 0;
+    background-color: #1d3441;
+}
+main{
+    position: relative;
+    top: 70px;
+    overflow: hidden;
+    min-height: calc(100vh - 70px);
+}
+input{
+    border-radius: 10px;
+    border: 2px solid #000000;
+    &:hover{
+       border: 2px solid #0d2b3a;
+    }
+    &:focus{
+        border: 2px solid #014569;
+    }
+}
+ button{
+    border-radius: 10px;
+    background-color: #2e0a3f;
+    border: 2px solid #000000;
+    &:hover{
+        background-color: #380736;
+     }
+     &:focus{
+        background-color: #3f0457;
+     }
+}
+.table{
+    width: 100%;
+    border-spacing: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;  
+    table{
+        width: 100%;
+        box-sizing: border-box;
+        tr{
+            th{
+                padding: 10px 20px;
+                background: #48758E;
+                color: #fff;
+                font-size: 0.9em;
+            }
+            td {
+                vertical-align: middle;
+                padding: 10px;
+                font-size: 14px;
+                text-align: center;
+                border-bottom: 2px solid #56433D;
+                border-right: 2px solid #56433D;
+                }
+        }
+    }
+}
